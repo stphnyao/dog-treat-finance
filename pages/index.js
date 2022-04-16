@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import LandingPage from './components/LandingPage'
+import Features from './components/Features'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
 			</Head>
 
 			<LandingPage />
+      <Features />
+      <Footer />
 		</div>
 	)
 }
