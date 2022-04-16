@@ -1,10 +1,6 @@
-const category = [
-	{ name: "📝 Contract Balance", amount: "600 BNB" },
-	{ name: "💰 Your Wallet", amount: "N/A" },
-	{ name: "🐶 Your Doges", amount: "N/A" },
-]
+const category = [{ name: "🦴 Your Dog Treats", amount: "N/A" }]
 
-export default function Contract() {
+export default function ContractDoges() {
 	return (
 		<div>
 			<table className="min-w-full divide-y divide-gray-300">
