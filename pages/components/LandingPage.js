@@ -6,6 +6,8 @@ import { ChevronRightIcon } from "@heroicons/react/solid"
 import Contract from "./Contract"
 import ContractDoges from "./ContractDoges"
 
+import TransactionsProvider from "../api/Web3"
+
 export default function LandingPage() {
 	return (
 		<div className="relative bg-gray-800 overflow-hidden">
@@ -127,7 +129,9 @@ export default function LandingPage() {
 												</div>
 											</form>
 										</div>
-										<ContractDoges className="mt-6" />
+
+										<ContractDoges />
+
 										<div className="flex justify-center ">
 											<div className="px-2">
 												<button
