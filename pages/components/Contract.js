@@ -1,8 +1,7 @@
 const category = [
 	{ name: "📝 Contract Balance", amount: "600 BNB" },
-	{ name: "💰 Your Wallet", amount: "300 BNB" },
-	{ name: "🐶 Your Dog Treats", amount: "2.7 BNB" },
-	// More people...
+	{ name: "💰 Your Wallet", amount: "N/A" },
+	{ name: "🐶 Your Doges", amount: "N/A" },
 ]
 
 export default function Contract() {
@@ -16,7 +15,6 @@ export default function Contract() {
 								{category.name}
 							</td>
 							<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{category.amount}</td>
-
 						</tr>
 					))}
 				</tbody>

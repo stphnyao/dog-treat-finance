@@ -5,11 +5,11 @@ export default function Footer() {
 		<div className="relative bg-gray-900 py-16 sm:py-24 lg:py-32">
 			<div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Ready to get started?</h2>
-				<p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+				<p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
 					Stay tuned for our launch by signing up here.
 				</p>
 				<div className="flex justify-center">
-					<form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-auto  mt-10">
+					<form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-auto mt-10">
 						<div className="sm:flex">
 							<div className="min-w-0 flex-1">
 								<label htmlFor="email" className="sr-only">
