@@ -8,7 +8,7 @@ export default function Footer() {
 				<p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
 					Stay tuned for our launch by signing up here.
 				</p>
-				<div classname="flex justify-center">
+				<div className="flex justify-center">
 					<form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-auto  mt-10">
 						<div className="sm:flex">
 							<div className="min-w-0 flex-1">

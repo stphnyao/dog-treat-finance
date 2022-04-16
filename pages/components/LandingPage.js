@@ -76,7 +76,7 @@ export default function LandingPage() {
 										Our ecosystem is designed in a way to maximize sustainability and reward investors with high
 										compounding values to achieve a sustainable system that generates passive income.
 									</p>
-									<div className="flex justify-content">
+									<div className="flex justify-center lg:flex lg:justify-start">
 										<p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Powered by</p>
 										<img className="h-8 pl-2 sm:h-10 mt-6" src="/eth2.png" alt="Ethereum" />
 									</div>
@@ -119,7 +119,7 @@ export default function LandingPage() {
 													/>
 												</div>
 
-												<div>
+												<div className="flex justify-center">
 													<button
 														type="submit"
 														className="w-1/2 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
