@@ -6,28 +6,28 @@ export default function Footer() {
 			<div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Ready to get started?</h2>
 				<p className="mt-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-					Stay tuned for our launch by signing up here.
+					Earn 10% more Dog Treats 🦴 from anyone who uses your referral link!
 				</p>
 				<div className="flex justify-center">
 					<form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-auto mt-10">
 						<div className="sm:flex">
 							<div className="min-w-0 flex-1">
-								<label htmlFor="email" className="sr-only">
+								{/* <label htmlFor="email" className="sr-only">
 									Email address
-								</label>
+								</label> */}
 								<input
-									id="email"
-									type="email"
-									placeholder="Enter your email"
+									// id="email"
+									// type="email"
+									placeholder="https://dogtreatfinance.app/?ref"
 									className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
 								/>
 							</div>
 							<div className="mt-3 sm:mt-0 sm:ml-3">
 								<button
-									type="submit"
+									// type="submit"
 									className="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
 								>
-									Sign Up
+									Copy Link
 								</button>
 							</div>
 						</div>

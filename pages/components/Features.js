@@ -10,13 +10,13 @@ const features = [
 	{
 		name: "$DOGTREAT TOKEN",
 		description:
-			"Our parent token, $DOGTREAT is an auto staking token that is part of the Dog Treat Ecosystem. Growing with the total worth of our project, and a 2% reflection fee spreading its tokens across holders with every transaction, Its ready to give passive rewards in form of $DOGTREAT just by holding.",
+			"Our parent token, $DOGTREAT is an auto staking token that is part of the Dog Treat Ecosystem. Growing with the total worth of our project, and a 2% reflection fee spreading its tokens across holders with every transaction, it's ready to provide passive rewards in the form of $DOGTREAT just by holding.",
 		icon: CurrencyDollarIcon,
 	},
 	{
 		name: "DOGTREAT MINER",
 		description:
-			"An aggressive but locked ETH Staking Pool, returning up to 12% in ETH daily! Grow your army of Doges to Get treats. Sell treats for ETH or Hire more dogs with treats to increase your daily returns!🐒💰 *Depending on multiple factors such as TVL, dog treats market value, personal investment habits and more..",
+			"An aggressive but locked ETH Staking Pool, returning up to 12% in ETH daily! Grow your army of Doges to get treats. Sell treats for ETH or hire more dogs with treats to increase your daily returns!🐒💰 *Depending on multiple factors such as TVL, dog treats market value, personal investment habits and more..",
 		icon: CogIcon,
 	},
 	{
