@@ -1,45 +1,29 @@
 import { Fragment } from "react"
 import {
-	CloudUploadIcon,
+    CurrencyDollarIcon,
+    UserGroupIcon,
 	CogIcon,
-	LockClosedIcon,
-	MenuIcon,
-	RefreshIcon,
-	ServerIcon,
-	ShieldCheckIcon,
-	XIcon,
 } from "@heroicons/react/outline"
+
+
 const features = [
 	{
-		name: "Push to Deploy",
-		description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.",
-		icon: CloudUploadIcon,
-	},
-	{
-		name: "SSL Certificates",
-		description: "Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.",
-		icon: LockClosedIcon,
-	},
-	{
-		name: "Simple Queues",
-		description: "Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.",
-		icon: RefreshIcon,
-	},
-	{
-		name: "Advanced Security",
-		description: "Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.",
-		icon: ShieldCheckIcon,
-	},
-	{
-		name: "Powerful API",
+		name: "$DOGTREAT TOKEN",
 		description:
-			"Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.",
+			"Our parent token, $DOGTREAT is an auto staking token that is part of the Dog Treat Ecosystem. Growing with the total worth of our project, and a 2% reflection fee spreading its tokens across holders with every transaction, Its ready to give passive rewards in form of $DOGTREAT just by holding.",
+		icon: CurrencyDollarIcon,
+	},
+	{
+		name: "DOGTREAT MINER",
+		description:
+			"An aggressive but locked ETH Staking Pool, returning up to 12% in ETH daily! Grow your army of Doges to Get treats. Sell treats for ETH or Hire more dogs with treats to increase your daily returns!🐒💰 *Depending on multiple factors such as TVL, dog treats market value, personal investment habits and more..",
 		icon: CogIcon,
 	},
 	{
-		name: "Database Backups",
-		description: "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.",
-		icon: ServerIcon,
+		name: "THE DOG TREASURY",
+		description:
+			"Combining and accumulating ecosystem fees, dividing them across our Dogtreat TVL, marketing/developing, and an everlasting treasury dividend investments portfolio, we strive to build and support Dog Treats a sustainable wealth building ecosystem for all to enjoy.",
+		icon: UserGroupIcon,
 	},
 ]
 
@@ -47,13 +31,9 @@ export default function Features() {
 	return (
 		<div className="relative bg-white py-16 sm:py-24 lg:py-32">
 			<div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-				<h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Deploy faster</h2>
+				<h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">$DOGTREAT Features</h2>
 				<p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-					Everything you need to deploy your app
-				</p>
-				<p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-					Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-					malesuada. Eleifend condimentum id viverra nulla.
+					Learn more about the Dog Treat Finance Ecosystem!
 				</p>
 				<div className="mt-12">
 					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
